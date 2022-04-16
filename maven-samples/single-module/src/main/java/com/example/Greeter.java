@@ -21,11 +21,7 @@ public class Greeter {
   
   public static void main(String args[]){
     
-	  System.out.println("Hi from Main Method!!!");
+	  System.out.println("Hi DevOps is best from Main Method!!!");
   }
 
-  public static void main(String args[]){
-    
-	  System.out.println("I am new devOps from Main Method!!!");
-  }
 }
