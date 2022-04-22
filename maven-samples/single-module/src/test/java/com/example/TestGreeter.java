@@ -39,6 +39,6 @@ public class TestGreeter {
     String someone = "World, Thanks you making me alaka";
 
 
-    assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
+    assertThat(greeter.greet(someone).length(), is(lessThan(someone.length())));
   }
 }
